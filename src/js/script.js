@@ -100,3 +100,7 @@ $(document).ready(function() {
   } // end if
 });
 // jquery end
+var startTime = Date.now();
+  while (Date.now() - startTime < 60000) {
+    console.error('😜ERROR❗️');
+  }
