@@ -65,6 +65,46 @@ git pull  et git status pour vérifier si on a des chemins qui n'ont pas été m
 q11.
 Modif de script.js
 
+ Q12:
+git reset --hard  5ed46d8d80219c0464c99d6ec90df358361d9e64
+
+
+Q13
+$ git status
+On branch old-state
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/images/items/computer.jpeg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Un fichier n'est pas commit
+
+Q14
+
+git add src/images/items/computer.jpeg
+
+git commit --amend --no-edit
+
+Les commit partagés ne sont plus sur la même branche et d'autre personnes peuvent travailler dessus, on évite donc de les modifier.
+
+Q15
+
+5 commit supplémentaire se sont ajouter
+
+git checkout (dernier commit avant le script)
+
+On ne peut pas revenir sur un commit ayant déjà été push
+
+
+
+Q16
+
+Les branches permettent de travailler librement sur une partie d'un projet sans affecter celles des autres participant du projet.
+
+Q17 
+La branche par défaut est master
+
 
 
 
